@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: #F7ECDE;
+}
+i{
+    padding-right: 10px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #d95d10 !important;
+   
+    box-shadow: 0 0 2px 2px rgb(255, 222, 101) !important;
+  }
+  #I1.right {
+    border: 1px solid #10d92e !important;
+    box-shadow: 0 0 2px 2px rgb(101, 255, 132) !important;
+    background-image: url(../images/11.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    
+    
+  }
+  #I1.wrong{
+    border: 1px solid #ff0404 !important;
+    box-shadow: 0 0 2px 2px rgb(255, 101, 101) !important;
+    background-image: url(../images/22.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+  #I2.right {
+    border: 1px solid #10d92e !important;
+    box-shadow: 0 0 2px 2px rgb(101, 255, 132) !important;
+    background-image: url(../images/11.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    
+    
+  }
+  #I2.wrong{
+    border: 1px solid #ff0404 !important;
+    box-shadow: 0 0 2px 2px rgb(255, 101, 101) !important;
+    background-image: url(../images/22.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+
+ 
+h1{
+    font-family: 'Pacifico', cursive;
+    width: fit-content;
+    font-size: 50px;
+   
+  
+    
+    
+}
+h1::before{
+    content: "";
+    position: absolute;
+    background-color: #FEC260;
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+    transition: height 0.57s;
+}
+h1:hover::before{
+    height: 66%;
+}
+.title{
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px black;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+
+.title i{
+    padding: 10px;
+}
+
+
+

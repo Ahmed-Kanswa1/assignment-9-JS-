@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!?--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!?--fonts-->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5 ">
+        <h1 class="text-center m-auto  position-relative">Bookmarker</h1>
+        <div class="title mt-5">
+            <h2 class="m-auto "> <i class="fa-solid fa-bookmark"></i>Bookmark your favorite sites<i class="fa-solid fa-bookmark"></i></h2>
+            <label for="I1"><i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+            <input type="text" onkeyup="getInput(this.value)" class="form-control " id="I1">
+            <label for="I2"><i class="fa-solid fa-link pe-2"></i> Site URL</label>
+            <input type="text" onkeyup="getInput2(this.value)" class="form-control" id="I2">
+            <button onclick="getValue()" class="btn btn-danger m-auto text-center d-flex my-3">Submit</button>
+        </div>
+        <div class="inputTable mt-4">
+            <table class="table text-center">
+                <thead>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="show">
+              
+                </tbody>
+            </table>
+
+        </div>
+        
+    </div>
+    
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
